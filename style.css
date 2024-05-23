@@ -1,0 +1,206 @@
+section{
+    background-color: rgb(54, 8, 139);
+    height: 3cm;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+.nav{
+    text-align: center;
+    border-style: none;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 10px;
+
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+}
+.rest{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+*{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+  
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #004d99;
+    color: white;
+}
+.card {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 400px; 
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    padding: 20px; 
+    transition: transform 0.3s; 
+}
+.card img {
+    max-width: 200%; 
+    max-height: 120%;
+    border-radius: 8px 8px 0 0; 
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.card p {
+    margin: 0; 
+    flex-grow: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+.content {
+    display: flex;
+    justify-content: center; 
+    align-items: start; 
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.working-hours, .company-info {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.aboutus{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+}
+.form-container {
+    background-color: #f4f4f4;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-container textarea {
+    height: 120px;
+    resize: none;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #0055cc;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #003399;
+}
+.featured_product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+ 
+.featured_product button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    padding: 6px 10px;
+    border-color: rgb(30, 32, 182);
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    cursor: pointer;
+}
+.featured_product button:hover {
+    color: rgb(8, 248, 248);
+}
+.table_row {
+    display: table-row;
+}
+.table_data {
+    display: table-cell;
+    padding: 5px;
+}
+.socials {
+    display: flex;
+    gap: 10px;
+    position: relative; 
+    top: -130px; 
+    right: -1500px; 
+    transition: transform 0.3s;
+}
+.socials img {
+    width: 70px;
+    height: 70px;
+}
+footer {
+    background-color: rgb(11, 8, 150);
+    color: #fff; 
+    text-align:center; 
+    padding: 10px 0; 
+    position:relative ;
+    bottom: 0;
+    width: 100%;
+} 
